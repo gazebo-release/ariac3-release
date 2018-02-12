@@ -1,0 +1,41 @@
+Source: ariac
+Standards-Version: 3.9.6
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: devel
+Priority: extra
+Build-Depends: cmake,
+ debhelper (>= 9),
+ libgazebo7-dev,
+ ros-kinetic-ros,
+ ros-kinetic-std-msgs,
+ ros-kinetic-common-msgs,
+ ros-kinetic-image-common,
+ ros-kinetic-geometry-msgs,
+ ros-kinetic-gazebo-plugins,
+ ros-kinetic-gazebo-ros
+Homepage: http://gazebosim.org/ariac
+
+Package: ariac
+Architecture: any
+Section: devel
+Priority: extra
+Depends: libgazebo7-dev,
+ ros-kinetic-ros,
+ ros-kinetic-std-msgs,
+ ros-kinetic-common-msgs,
+ ros-kinetic-image-common,
+ ros-kinetic-geometry-msgs,
+ ros-kinetic-gazebo-ros-pkgs,
+ ros-kinetic-gazebo-ros-control,
+ ros-kinetic-ros-controllers,
+ ros-kinetic-controller-manager,
+ ros-kinetic-effort-controllers,
+ ros-kinetic-joint-state-publisher,
+ ros-kinetic-joint-state-controller,
+ ros-kinetic-robot-state-publisher,
+ ros-kinetic-xacro,
+ ${misc:Depends}
+Description: Agile Robotics for Industrial Automation Competition (ARIAC)
+ ARIAC requires participants to complete a series of tests centered in an
+ industrial scenario that are based around building kits made up of particular
+ parts. 
