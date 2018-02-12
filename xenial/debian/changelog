@@ -1,6 +1,6 @@
-ariac2 (0.0.0-1~xenial) xenial; urgency=medium
+ariac2 (0.0.0-pre1~xenial) xenial; urgency=medium
 
-  * ariac2 0.0.0-1 release
+  * ariac2 0.0.0-pre1 release
 
  -- D Hood <dhood@osrfoundation.org>  Mon, 12 Feb 2018 00:54:13 +0200
 
