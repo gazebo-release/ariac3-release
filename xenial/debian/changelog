@@ -1,3 +1,9 @@
+ariac2 (0.0.0-pre2~xenial) xenial; urgency=medium
+
+  * ariac2 0.0.0-pre2 release
+
+ -- D. Hood <dhood@osrfoundation.org>  Mon, 12 Feb 2018 14:43:57 -0800
+
 ariac2 (0.0.0-pre1~xenial) xenial; urgency=medium
 
   * ariac2 0.0.0-pre1 release
