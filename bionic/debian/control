@@ -1,39 +1,39 @@
-Source: ariac2
+Source: ariac3
 Standards-Version: 3.9.6
-Maintainer: D. Hood <dhood@osrfoundation.org>
+Maintainer: "S. Loretz" <sloretz@osrfoundation.org>
 Section: devel
 Priority: extra
 Build-Depends: cmake,
  debhelper (>= 9),
- libgazebo8-dev,
- ros-kinetic-ros,
- ros-kinetic-std-msgs,
- ros-kinetic-common-msgs,
- ros-kinetic-image-common,
- ros-kinetic-geometry-msgs,
- ros-kinetic-gazebo8-plugins,
- ros-kinetic-gazebo8-ros
+ libgazebo9-dev (>= 9.6.0),
+ ros-melodic-ros,
+ ros-melodic-std-msgs,
+ ros-melodic-common-msgs,
+ ros-melodic-image-common,
+ ros-melodic-geometry-msgs,
+ ros-melodic-gazebo9-plugins,
+ ros-melodic-gazebo9-ros
 Homepage: http://gazebosim.org/ariac
 
-Package: ariac2
+Package: ariac3
 Architecture: any
 Section: devel
 Priority: extra
-Depends: libgazebo8-dev,
- ros-kinetic-ros,
- ros-kinetic-std-msgs,
- ros-kinetic-common-msgs,
- ros-kinetic-image-common,
- ros-kinetic-geometry-msgs,
- ros-kinetic-gazebo8-ros-pkgs,
- ros-kinetic-gazebo8-ros-control,
- ros-kinetic-ros-controllers,
- ros-kinetic-controller-manager,
- ros-kinetic-effort-controllers,
- ros-kinetic-joint-state-publisher,
- ros-kinetic-joint-state-controller,
- ros-kinetic-robot-state-publisher,
- ros-kinetic-xacro,
+Depends: libgazebo9-dev (>= 9.6.0),
+ ros-melodic-ros,
+ ros-melodic-std-msgs,
+ ros-melodic-common-msgs,
+ ros-melodic-image-common,
+ ros-melodic-geometry-msgs,
+ ros-melodic-gazebo9-ros-pkgs,
+ ros-melodic-gazebo9-ros-control,
+ ros-melodic-ros-controllers,
+ ros-melodic-controller-manager,
+ ros-melodic-effort-controllers,
+ ros-melodic-joint-state-publisher,
+ ros-melodic-joint-state-controller,
+ ros-melodic-robot-state-publisher,
+ ros-melodic-xacro,
  ${misc:Depends}
 Description: Agile Robotics for Industrial Automation Competition (ARIAC)
  ARIAC requires participants to complete a series of tests centered in an
