@@ -1,3 +1,10 @@
+ariac3 (3.0.0~pre1-2~bionic) bionic; urgency=medium
+
+  * ariac3 3.0.0~pre1-2 release
+  * Fixed depends on gazebo_ros_pkgs
+
+ -- S. Loretz <sloretz@openrobotics.org>  Tue, 26 Feb 2019 17:06:00 -0800
+
 ariac3 (3.0.0~pre1-1~bionic) bionic; urgency=medium
 
   * ariac3 3.0.0~pre1-1 release
