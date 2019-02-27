@@ -1,6 +1,6 @@
 Source: ariac3
 Standards-Version: 3.9.6
-Maintainer: "S. Loretz" <sloretz@osrfoundation.org>
+Maintainer: "Shane Loretz" <sloretz@osrfoundation.org>
 Section: devel
 Priority: extra
 Build-Depends: cmake,
@@ -25,8 +25,8 @@ Depends: libgazebo9-dev (>= 9.6.0),
  ros-melodic-common-msgs,
  ros-melodic-image-common,
  ros-melodic-geometry-msgs,
- ros-melodic-gazebo9-ros-pkgs,
- ros-melodic-gazebo9-ros-control,
+ ros-melodic-gazebo-ros-pkgs (>= 2.8.4),
+ ros-melodic-gazebo-ros-control (>= 2.8.4),
  ros-melodic-ros-controllers,
  ros-melodic-controller-manager,
  ros-melodic-effort-controllers,
