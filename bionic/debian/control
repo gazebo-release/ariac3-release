@@ -11,8 +11,8 @@ Build-Depends: cmake,
  ros-melodic-common-msgs,
  ros-melodic-image-common,
  ros-melodic-geometry-msgs,
- ros-melodic-gazebo9-plugins,
- ros-melodic-gazebo9-ros
+ ros-melodic-gazebo-plugins (>= 2.8.4),
+ ros-melodic-gazebo-ros (>= 2.8.4)
 Homepage: http://gazebosim.org/ariac
 
 Package: ariac3
