@@ -5,7 +5,7 @@ ariac3 (3.0.0~pre2-0~bionic) bionic; urgency=medium
   * Tutorial faulty part is piston_rod_part_5
   * Update ariac.rviz for dual arms
 
- -- S. Loretz <sloretz@openrobotics.org>  Tue, 26 Feb 2019 17:06:00 -0800
+ -- S. Loretz <sloretz@openrobotics.org>  Tue, 05 Mar 2019 16:39:00 -0800
 
 ariac3 (3.0.0~pre1-2~bionic) bionic; urgency=medium
 
