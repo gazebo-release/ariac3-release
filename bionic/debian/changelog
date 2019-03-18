@@ -1,3 +1,13 @@
+ariac3 (3.0.0~pre4-0~bionic) bionic; urgency=medium
+  * Fixed scoring
+  * /ariac/trays now has type osrf_gear/DetectedShiopment
+  * Cheat service /ariac/submit_tray renamed to /ariac/submit_shipment
+  * osrf_gear/AGVControl field kit_type renamed to shipment_type
+  * TF frames published for trays
+  * Fixed sensor blackout feature
+
+ -- S. Loretz <sloretz@openrobotics.org>  Mon, 18 Mar 2019 15:45:00 -0700
+
 ariac3 (3.0.0~pre3-0~bionic) bionic; urgency=medium
   * ariac3 3.0.0~pre3-0 release
   * Update sensor configs for tutorial
