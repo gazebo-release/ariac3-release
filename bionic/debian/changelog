@@ -1,3 +1,9 @@
+ariac3 (3.0.1-0~bionic) bionic; urgency=medium
+  * Bumped version to 3.0.1
+  * First stable release
+
+ -- S. Loretz <sloretz@openrobotics.org>  Thu, 28 Mar 2019 08:42:00 -0700
+
 ariac3 (3.0.0~pre7-0~bionic) bionic; urgency=medium
   * Updated example and sample config files for 2019 bin locations
   * Conveyor is powered on when competition starts
