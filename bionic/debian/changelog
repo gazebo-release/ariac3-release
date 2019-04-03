@@ -1,3 +1,8 @@
+ariac3 (3.0.2-1~bionic) bionic; urgency=medium
+  * Version number in software reports 3.0.2 instead of 3.0.1
+
+ -- S. Loretz <sloretz@openrobotics.org>  Mon, 03 Apr 2019 11:05:00 -0700
+ 
 ariac3 (3.0.2-0~bionic) bionic; urgency=medium
   * Released Part A qualification config files
 
