@@ -1,3 +1,9 @@
+ariac3 (3.0.4~bionic) bionic; urgency=medium
+  * Fix crash at end of simulation corrupting state.log
+  * Improved appearance of scores printed in performance.log
+
+ -- S. Loretz <sloretz@openrobotics.org>  Fri, 19 Apr 2019 16:10:00 -0700
+ 
 ariac3 (3.0.3~bionic) bionic; urgency=medium
   * Fix crash with multiple laser profilers
 
