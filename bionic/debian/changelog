@@ -1,3 +1,13 @@
+ariac3 (3.0.5~bionic) bionic; urgency=medium
+  * Parts taken off trays now have AutoDisable re-enabled
+  * Gasket part collision simplified to reduce number of contacts
+  * Pulley part now uses 2 cylinders instead of many boxes for collisions
+  * Vacuum gripper update uses Sim time instead of Wall time
+  * Qualifier Part B trial configs released
+  * Thanks Steven Gray for contributing performance improvements
+
+ -- S. Loretz <sloretz@openrobotics.org>  Fri, 25 Apr 2019 11:49:00 -0700
+ 
 ariac3 (3.0.4~bionic) bionic; urgency=medium
   * Fix crash at end of simulation corrupting state.log
   * Improved appearance of scores printed in performance.log
