@@ -1,3 +1,8 @@
+ariac3 (3.0.6~bionic) bionic; urgency=medium
+  * Add other camera poses as comments
+  * Add 2019 15 trial configs used in finals
+-- S. Loretz <sloretz@openrobotics.org>  Tue, 21 May 2019 16:14:00 -0700
+
 ariac3 (3.0.5~bionic) bionic; urgency=medium
   * Parts taken off trays now have AutoDisable re-enabled
   * Gasket part collision simplified to reduce number of contacts
